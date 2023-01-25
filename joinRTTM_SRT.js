@@ -57,7 +57,7 @@ function readJson(filePath) {
 function joinRTTM_SRT(srt, rttm) {
   let holgura = 1;
 
-  rttm.forEach((item) => {
+  rttm.segmentos.forEach((item) => {
     let start = item.start;
     let end = item.stop;
     let speaker = item.speaker;
@@ -76,17 +76,44 @@ srtToJson("mutefire.srt")
     readJson("mutefirev2.json")
       .then((dataJson) => {
         let joined = joinRTTM_SRT(srtJson, dataJson);
-        // fs.writeFile("join.json", JSON.stringify(joined), (err) => {
-        //   if (err) console.log(err);
-        //   else console.log("File saved");
-        // });
-        filterSrtBySpeaker(joined, "speaker", "speakers");
+        // const json = {
+        //   totalSegmentos: joined.length,
+        //   segmentosUndefined: {
+        //     totalSegmentos: joined.filter(
+        //       (item) => item.speaker === "undefined"
+        //     ).length,
+        //     segmentos: joined.filter((item) => item.speaker === "undefined"),
+        //   },
+        //   segmentos: joined,
+        // };
+
+        fs.writeFile("joinSRT&RTTM.json", JSON.stringify(joined), (err) => {
+          if (err) console.log(err);
+          else console.log("Archivo joinSRT&RTTM.json creado");
+        });
+        joined.forEach((item) => {
+          item.startTime = secondsToSubrip(item.startTime);
+          item.endTime = secondsToSubrip(item.endTime);
+          item.text = item.speaker + ": " + item.text;
+          delete item.speaker;
+        });
+        fs.writeFile("joinSRT&RTTM.srt", srtparsejs.toSrt(joined), (err) => {
+          if (err) console.log(err);
+          else console.log("Archivo joinSRT&RTTM.srt creado");
+        });
+        const track = filterSrtBySpeaker(joined, "speaker", "speakers");
+        const json = { totalSegmentos: joined.length, track: track };
+        fs.writeFile("trackDataSRT.json", JSON.stringify(json), (err) => {
+          if (err) console.log(err);
+          else console.log("Archivo trackDataSRT&RTTMv2.json creado");
+        });
       })
       .catch((err) => console.log(err));
   })
   .catch((err) => console.log(err));
 
 function filterSrtBySpeaker(json, speakerAttr, outputPath) {
+  const track = [];
   //filter() para crear un arreglo con los objetos que contengan el atributo especificado.
   let speakers = json.filter((item) => item[speakerAttr]);
   // metodo map para obtener un arreglo con todos los valores del atributo buscado y luego se utiliza el metodo Set para crear un arreglo con valores unicos del atributo buscado.
@@ -96,13 +123,34 @@ function filterSrtBySpeaker(json, speakerAttr, outputPath) {
     //Se crea un nuevo arreglo con los objetos que contengan el valor del atributo buscado.
     let speakerJson = json.filter((item) => item[speakerAttr] === speaker);
 
+    let copySpeakerJson = [
+      {
+        speaker: speaker,
+        totalSegmentos: speakerJson.length,
+        segmentosSRT: speakerJson,
+      },
+    ];
+    track.push({
+      speaker: speaker,
+      totalSegmentos: speakerJson.length,
+      segmentos: speakerJson,
+    });
+    fs.writeFile(
+      `${outputPath}/${speaker}.json`,
+      JSON.stringify(copySpeakerJson),
+      (err) => {
+        if (err) throw err;
+        console.log(`Archivo ${speaker}.json creado`);
+      }
+    );
+
     speakerJson.forEach((item) => {
       item.startTime = secondsToSubrip(item.startTime);
       item.endTime = secondsToSubrip(item.endTime);
       item.text = item.speaker + ": " + item.text;
       delete item.speaker;
     });
-    console.log(speakerJson);
+
     fs.writeFile(
       `${outputPath}/${speaker}.srt`,
       srtparsejs.toSrt(speakerJson),
@@ -112,4 +160,5 @@ function filterSrtBySpeaker(json, speakerAttr, outputPath) {
       }
     );
   });
+  return track;
 }

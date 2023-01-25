@@ -1,1 +1,6 @@
+node_modules
+./python/packages
+python/packages
+./python/mutefire.wav
+python/mutefire.wav
 ./mutefire.wav

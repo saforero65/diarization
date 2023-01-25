@@ -77,15 +77,10 @@ with open("mutefire.json", "w") as file:
     holgura=1
     for r in rttm:
         for s in srt_list:
-            index=s["subtitle_num"]
-            if index==703:
-              print("El segmento en el srt:",s["subtitle_num"],"tiene como inicio:",subrip_to_seconds(s["start_time"]),"y como fin:",subrip_to_seconds(s["end_time"]))
-              print("El segmento en el rttm:",r["file_name"],"tiene como inicio:",subrip_to_seconds(r["tbeg"]),"y como fin:",subrip_to_seconds(r["tfin"]))
-              
+                       
             if subrip_to_seconds(r["tbeg"])-holgura <= subrip_to_seconds(s["start_time"]) and subrip_to_seconds(r["tfin"])+holgura >= subrip_to_seconds(s["end_time"]):
                 s["speaker"] = r["speaker"] 
                 
-                # imprimir idice de la lista
                 
             
                 
