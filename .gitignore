@@ -3,4 +3,6 @@ node_modules
 python/packages
 ./python/mutefire.wav
 python/mutefire.wav
+./python/conversacion.wav
+python/conversacion.wav
 ./mutefire.wav
