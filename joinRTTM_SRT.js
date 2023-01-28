@@ -76,12 +76,17 @@ srtToJson("mutefire.srt")
     readJson("mutefirev2.json")
       .then((dataJson) => {
         let joined = joinRTTM_SRT(srtJson, dataJson);
-
-        fs.writeFile("joinSRT&RTTM.json", JSON.stringify(joined), (err) => {
-          if (err) console.log(err);
-          else console.log("Archivo joinSRT&RTTM.json creado");
-        });
         const undefendedAssigned = compareAssignSpeaker(joined);
+
+        fs.writeFile(
+          "joinSRT&RTTM.json",
+          JSON.stringify(undefendedAssigned),
+          (err) => {
+            if (err) console.log(err);
+            else console.log("Archivo joinSRT&RTTM.json creado");
+          }
+        );
+
         const copyJoined = JSON.parse(JSON.stringify(undefendedAssigned));
         copyJoined.forEach((item) => {
           item.startTime = secondsToSubrip(item.startTime);
