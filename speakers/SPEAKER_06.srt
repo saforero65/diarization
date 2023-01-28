@@ -1,3 +1,8 @@
+1
+00:00:40,173 --> 00:00:45,145
+SPEAKER_06: I had been in the army for three years,
+until I got kicked out...
+
 2
 00:00:46,112 --> 00:00:51,350
 SPEAKER_06: because there were some corpses
@@ -12,6 +17,10 @@ the order to bury them.
 00:00:56,789 --> 00:01:03,029
 SPEAKER_06: But I didn’t. Instead I sold them
 to some people who approached me.
+
+5
+00:01:03,862 --> 00:01:06,733
+SPEAKER_06: They wanted me to sell them.
 
 6
 00:01:07,000 --> 00:01:10,602
@@ -49,6 +58,20 @@ if they would have died in combat.
 00:01:37,496 --> 00:01:41,900
 SPEAKER_06: I kept silence until they were
 declared as "false positives".
+
+14
+00:01:49,174 --> 00:01:54,980
+SPEAKER_06: MUTE FIRE
+
+15
+00:01:55,981 --> 00:02:01,688
+SPEAKER_06: On February 10th 1906, four men
+tried to murder the president of Colombia.
+
+16
+00:02:01,888 --> 00:02:08,794
+SPEAKER_06: The staging of that event, was the
+beginning of cinema in the country.
 
 559
 01:05:33,228 --> 01:05:36,798

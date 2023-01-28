@@ -1,6 +1,6 @@
 1
 00:00:40,173 --> 00:00:45,145
-undefined: I had been in the army for three years,
+SPEAKER_06: I had been in the army for three years,
 until I got kicked out...
 
 2
@@ -20,7 +20,7 @@ to some people who approached me.
 
 5
 00:01:03,862 --> 00:01:06,733
-undefined: They wanted me to sell them.
+SPEAKER_06: They wanted me to sell them.
 
 6
 00:01:07,000 --> 00:01:10,602
@@ -61,16 +61,16 @@ declared as "false positives".
 
 14
 00:01:49,174 --> 00:01:54,980
-undefined: MUTE FIRE
+SPEAKER_06: MUTE FIRE
 
 15
 00:01:55,981 --> 00:02:01,688
-undefined: On February 10th 1906, four men
+SPEAKER_06: On February 10th 1906, four men
 tried to murder the president of Colombia.
 
 16
 00:02:01,888 --> 00:02:08,794
-undefined: The staging of that event, was the
+SPEAKER_06: The staging of that event, was the
 beginning of cinema in the country.
 
 17
@@ -638,7 +638,7 @@ SPEAKER_07: that Aracellys brain is completely normal.
 
 134
 00:17:10,828 --> 00:17:14,932
-undefined: <i><font color='#f3cf1f'>- Ok. What's your name?</font></i>
+SPEAKER_07: <i><font color='#f3cf1f'>- Ok. What's your name?</font></i>
 <i><font color='#f3cf1f'>- Gustavo Rojas.</font></i>
 
 135
@@ -647,7 +647,7 @@ SPEAKER_11: <i><font color='#f3cf1f'>Gustavo Rojas.</font></i>
 
 136
 00:17:21,874 --> 00:17:24,910
-undefined: <i><font color='#f3cf1f'>No, no. I think it's better alone.</font></i>
+SPEAKER_11: <i><font color='#f3cf1f'>No, no. I think it's better alone.</font></i>
 
 137
 00:17:25,978 --> 00:17:29,213
@@ -666,7 +666,7 @@ SPEAKER_11: <i><font color='#f3cf1f'>Well, there's many different ones.</font></
 
 140
 00:17:46,765 --> 00:17:50,134
-undefined: <i><font color='#f3cf1f'>Let's stop for a minute. One question.</font></i>
+SPEAKER_11: <i><font color='#f3cf1f'>Let's stop for a minute. One question.</font></i>
 <i><font color='#f3cf1f'>She will ask so you can answer that...</font></i>
 
 141
@@ -1104,7 +1104,7 @@ has spread and got even stronger.
 
 231
 00:29:22,160 --> 00:29:28,465
-undefined: Since in June 1964 we had already...
+SPEAKER_02: Since in June 1964 we had already...
 
 232
 00:29:29,666 --> 00:29:34,506
@@ -1447,7 +1447,7 @@ an "explained cinematograph".
 
 302
 00:39:15,186 --> 00:39:19,056
-undefined: Banana field blueprint
+SPEAKER_01: Banana field blueprint
 
 303
 00:39:58,628 --> 00:40:03,199
@@ -2043,7 +2043,7 @@ expecting it, so keep your eyes open."
 
 430
 00:53:43,320 --> 00:53:49,592
-undefined: ♪ I remember when I saw
+SPEAKER_01: ♪ I remember when I saw
 you for the first time
 
 431
@@ -2052,7 +2052,7 @@ SPEAKER_10: ♪ and my eyes teared up when I looked at you.
 
 432
 00:53:55,532 --> 00:54:00,469
-undefined: ♪ I can't deny it, I was
+SPEAKER_10: ♪ I can't deny it, I was
 scared to confess to you
 
 433
@@ -2061,16 +2061,16 @@ SPEAKER_10: ♪ how I would adore you.
 
 434
 00:54:06,543 --> 00:54:11,347
-undefined: ♪ You looked at me, and I stared at you.
+SPEAKER_10: ♪ You looked at me, and I stared at you.
 
 435
 00:54:12,916 --> 00:54:17,019
-undefined: ♪ Until one day, we finally
+SPEAKER_10: ♪ Until one day, we finally
 understood each other.
 
 436
 00:54:18,188 --> 00:54:22,626
-undefined: ♪ Who could imagine that then
+SPEAKER_10: ♪ Who could imagine that then
 our children would come
 
 437
@@ -2080,7 +2080,7 @@ place for all eternity.
 
 438
 00:54:29,199 --> 00:54:32,969
-undefined: ♪ To bring joy to this
+SPEAKER_10: ♪ To bring joy to this
 place for all eternity.
 
 439
@@ -2131,7 +2131,7 @@ could be a medical issue.
 
 449
 00:56:29,619 --> 00:56:32,222
-undefined: We took her to the doctor
+SPEAKER_05: We took her to the doctor
 
 450
 00:56:32,521 --> 00:56:37,626
@@ -2140,7 +2140,7 @@ and to other people.
 
 451
 00:56:38,193 --> 00:56:40,295
-undefined: To everyone I thought could know.
+SPEAKER_05: To everyone I thought could know.
 
 452
 00:56:41,130 --> 00:56:43,632
@@ -2182,7 +2182,7 @@ SPEAKER_05: she insinuates, she takes initiatives.
 
 460
 00:57:11,927 --> 00:57:16,266
-undefined: I think that she is taking somehow revenge.
+SPEAKER_05: I think that she is taking somehow revenge.
 
 461
 00:57:16,565 --> 00:57:21,237
@@ -2191,16 +2191,16 @@ is to make life unbearable to everyone.
 
 462
 00:57:22,105 --> 00:57:24,873
-undefined: If that’s the case, she
+SPEAKER_05: If that’s the case, she
 should have said it,
 
 463
 00:57:24,873 --> 00:57:27,242
-undefined: and it would have been better
+SPEAKER_05: and it would have been better
 
 464
 00:57:27,710 --> 00:57:29,746
-undefined: that we would just
+SPEAKER_05: that we would just
 have ended everything.
 
 465
@@ -2209,31 +2209,31 @@ SPEAKER_05: I think that families begin
 
 466
 00:57:32,782 --> 00:57:38,253
-undefined: and families dissolve, families
+SPEAKER_05: and families dissolve, families
 should not self-destruct.
 
 467
 00:57:38,387 --> 00:57:42,458
-undefined: I think we never talked enough about love.
+SPEAKER_05: I think we never talked enough about love.
 
 468
 00:57:42,625 --> 00:57:45,628
-undefined: Because if we had talked
+SPEAKER_05: Because if we had talked
 enough about love
 
 469
 00:57:45,795 --> 00:57:47,896
-undefined: we would have understood
+SPEAKER_05: we would have understood
 it from the beginning.
 
 470
 00:57:48,264 --> 00:57:53,135
-undefined: Love is born, it grows and it
+SPEAKER_05: Love is born, it grows and it
 dies like everything in nature.
 
 471
 00:57:53,369 --> 00:57:59,675
-undefined: I believe that the academic attitude is not
+SPEAKER_05: I believe that the academic attitude is not
 only repeating texts in the universities
 
 472
@@ -2531,20 +2531,20 @@ coming from football events.
 
 533
 01:02:42,891 --> 01:02:46,161
-undefined: - Was my exit okay?
+SPEAKER_01: - Was my exit okay?
 - It was fine.
 
 534
 01:02:47,530 --> 01:02:48,965
-undefined: <i>Cut.</i>
+SPEAKER_01: <i>Cut.</i>
 
 535
 01:02:50,900 --> 01:02:52,969
-undefined: <i>Roll camera, roll sound.</i>
+SPEAKER_01: <i>Roll camera, roll sound.</i>
 
 536
 01:02:53,735 --> 01:02:56,139
-undefined: - Do I have to clap again?
+SPEAKER_01: - Do I have to clap again?
 - <i>Yes, please.</i>
 
 537
@@ -2651,7 +2651,7 @@ SPEAKER_01: <i>and were claiming for them.</i>
 
 558
 01:05:30,826 --> 01:05:32,494
-undefined: …or something like that.
+SPEAKER_01: …or something like that.
 
 559
 01:05:33,228 --> 01:05:36,798
@@ -3202,7 +3202,7 @@ of its images.
 
 671
 01:18:02,676 --> 01:18:06,914
-undefined: <i>♪ With justice and truth</i>
+SPEAKER_01: <i>♪ With justice and truth</i>
 next to the people it is
 
 672
@@ -3211,66 +3211,66 @@ SPEAKER_09: <i>♪ with the first fire of the dawn</i>
 
 673
 01:18:10,618 --> 01:18:14,890
-undefined: <i>♪ the little song that was</i>
+SPEAKER_09: <i>♪ the little song that was</i>
 born in our guerrilla voice
 
 674
 01:18:14,890 --> 01:18:18,659
-undefined: <i>♪ of struggle and future.</i>
+SPEAKER_09: <i>♪ of struggle and future.</i>
 
 675
 01:18:18,659 --> 01:18:22,963
-undefined: <i>♪ With Bolivar, Galán already rode again.</i>
+SPEAKER_09: <i>♪ With Bolivar, Galán already rode again.</i>
 
 676
 01:18:23,131 --> 01:18:26,835
-undefined: <i>♪ No more weeping and pain of the homeland.</i>
+SPEAKER_09: <i>♪ No more weeping and pain of the homeland.</i>
 
 677
 01:18:26,935 --> 01:18:31,172
-undefined: <i>♪ We are people who go after freedom</i>
+SPEAKER_09: <i>♪ We are people who go after freedom</i>
 
 678
 01:18:31,172 --> 01:18:34,475
-undefined: <i>♪ building the path of peace.</i>
+SPEAKER_09: <i>♪ building the path of peace.</i>
 
 679
 01:18:34,475 --> 01:18:38,546
-undefined: <i>♪ Guerilla of the FARC </i>
+SPEAKER_09: <i>♪ Guerilla of the FARC </i>
 with the people to triumph
 
 680
 01:18:38,546 --> 01:18:41,850
-undefined: <i>♪ for the fatherland, </i>
+SPEAKER_09: <i>♪ for the fatherland, </i>
 the people and the bread.
 
 681
 01:18:41,850 --> 01:18:45,921
-undefined: <i>♪ Guerilla of the FARC,</i>
+SPEAKER_09: <i>♪ Guerilla of the FARC,</i>
 with the voice of unity
 
 682
 01:18:45,921 --> 01:18:49,190
-undefined: <i>♪ to achieve freedom.</i>
+SPEAKER_09: <i>♪ to achieve freedom.</i>
 
 683
 01:18:49,423 --> 01:18:53,328
-undefined: <i>♪ Guerrilla of the FARC </i>
+SPEAKER_09: <i>♪ Guerrilla of the FARC </i>
 with the people to triumph
 
 684
 01:18:53,328 --> 01:18:56,465
-undefined: <i>♪ for the fatherland, </i>
+SPEAKER_09: <i>♪ for the fatherland, </i>
 the people and the bread.
 
 685
 01:18:56,465 --> 01:19:00,368
-undefined: <i>♪ Guerilla of the FARC,</i>
+SPEAKER_09: <i>♪ Guerilla of the FARC,</i>
 with the voice of unity
 
 686
 01:19:00,601 --> 01:19:04,206
-undefined: <i>♪ to achieve freedom.</i>
+SPEAKER_09: <i>♪ to achieve freedom.</i>
 
 687
 01:19:14,149 --> 01:19:16,784
@@ -3315,40 +3315,40 @@ SPEAKER_11: <i>And how many times have you won?</i>
 
 696
 01:20:05,100 --> 01:20:09,671
-undefined: I've only lost twice in ten years.
+SPEAKER_11: I've only lost twice in ten years.
 
 697
 01:20:10,238 --> 01:20:13,073
-undefined: Because I stopped competing. I've been
+SPEAKER_11: Because I stopped competing. I've been
 the winner for eight years now.
 
 698
 01:20:13,207 --> 01:20:16,845
-undefined: <i>- You stopped competing?</i>
+SPEAKER_11: <i>- You stopped competing?</i>
 - Yes.
 
 699
 01:20:17,679 --> 01:20:21,716
-undefined: <i>- We wish you good luck for tomorrow.</i>
+SPEAKER_11: <i>- We wish you good luck for tomorrow.</i>
 - Thank you.
 
 700
 01:20:49,644 --> 01:20:51,112
-undefined: <i>Federico.</i>
+SPEAKER_11: <i>Federico.</i>
 
 701
 01:20:55,417 --> 01:20:56,618
-undefined: <i>Federico...</i>
+SPEAKER_11: <i>Federico...</i>
 
 702
 01:20:58,153 --> 01:20:59,887
-undefined: <i>Federico...</i>
+SPEAKER_11: <i>Federico...</i>
 
 703
 01:21:01,256 --> 01:21:02,690
-undefined: <i>Federico.</i>
+SPEAKER_11: <i>Federico.</i>
 
 704
 01:21:05,226 --> 01:21:07,494
-undefined: MUTE FIRE
+SPEAKER_11: MUTE FIRE
 

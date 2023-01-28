@@ -74,3 +74,8 @@ exam, we can conclude
 00:16:25,149 --> 00:16:29,754
 SPEAKER_07: that Aracellys brain is completely normal.
 
+134
+00:17:10,828 --> 00:17:14,932
+SPEAKER_07: <i><font color='#f3cf1f'>- Ok. What's your name?</font></i>
+<i><font color='#f3cf1f'>- Gustavo Rojas.</font></i>
+

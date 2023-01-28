@@ -2,6 +2,10 @@
 00:17:15,867 --> 00:17:19,371
 SPEAKER_11: <i><font color='#f3cf1f'>Gustavo Rojas.</font></i>
 
+136
+00:17:21,874 --> 00:17:24,910
+SPEAKER_11: <i><font color='#f3cf1f'>No, no. I think it's better alone.</font></i>
+
 137
 00:17:25,978 --> 00:17:29,213
 SPEAKER_11: <i><font color='#f3cf1f'>Or I introduce him.</font></i>
@@ -16,6 +20,11 @@ SPEAKER_11: <i><font color='#f3cf1f'>Gustavo Rojas, he is chief</font></i>
 00:17:40,659 --> 00:17:46,131
 SPEAKER_11: <i><font color='#f3cf1f'>Well, there's many different ones.</font></i>
 <i><font color='#f3cf1f'>Like Tucanos, and some others...</font></i>
+
+140
+00:17:46,765 --> 00:17:50,134
+SPEAKER_11: <i><font color='#f3cf1f'>Let's stop for a minute. One question.</font></i>
+<i><font color='#f3cf1f'>She will ask so you can answer that...</font></i>
 
 394
 00:50:23,719 --> 00:50:26,322
@@ -49,4 +58,43 @@ participating in the parade?
 695
 01:20:00,895 --> 01:20:04,865
 SPEAKER_11: <i>And how many times have you won?</i>
+
+696
+01:20:05,100 --> 01:20:09,671
+SPEAKER_11: I've only lost twice in ten years.
+
+697
+01:20:10,238 --> 01:20:13,073
+SPEAKER_11: Because I stopped competing. I've been
+the winner for eight years now.
+
+698
+01:20:13,207 --> 01:20:16,845
+SPEAKER_11: <i>- You stopped competing?</i>
+- Yes.
+
+699
+01:20:17,679 --> 01:20:21,716
+SPEAKER_11: <i>- We wish you good luck for tomorrow.</i>
+- Thank you.
+
+700
+01:20:49,644 --> 01:20:51,112
+SPEAKER_11: <i>Federico.</i>
+
+701
+01:20:55,417 --> 01:20:56,618
+SPEAKER_11: <i>Federico...</i>
+
+702
+01:20:58,153 --> 01:20:59,887
+SPEAKER_11: <i>Federico...</i>
+
+703
+01:21:01,256 --> 01:21:02,690
+SPEAKER_11: <i>Federico.</i>
+
+704
+01:21:05,226 --> 01:21:07,494
+SPEAKER_11: MUTE FIRE
 

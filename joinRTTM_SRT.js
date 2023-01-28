@@ -76,32 +76,31 @@ srtToJson("mutefire.srt")
     readJson("mutefirev2.json")
       .then((dataJson) => {
         let joined = joinRTTM_SRT(srtJson, dataJson);
-        // const json = {
-        //   totalSegmentos: joined.length,
-        //   segmentosUndefined: {
-        //     totalSegmentos: joined.filter(
-        //       (item) => item.speaker === "undefined"
-        //     ).length,
-        //     segmentos: joined.filter((item) => item.speaker === "undefined"),
-        //   },
-        //   segmentos: joined,
-        // };
 
         fs.writeFile("joinSRT&RTTM.json", JSON.stringify(joined), (err) => {
           if (err) console.log(err);
           else console.log("Archivo joinSRT&RTTM.json creado");
         });
-        joined.forEach((item) => {
+        const undefendedAssigned = compareAssignSpeaker(joined);
+        const copyJoined = JSON.parse(JSON.stringify(undefendedAssigned));
+        copyJoined.forEach((item) => {
           item.startTime = secondsToSubrip(item.startTime);
           item.endTime = secondsToSubrip(item.endTime);
           item.text = item.speaker + ": " + item.text;
           delete item.speaker;
         });
-        fs.writeFile("joinSRT&RTTM.srt", srtparsejs.toSrt(joined), (err) => {
-          if (err) console.log(err);
-          else console.log("Archivo joinSRT&RTTM.srt creado");
-        });
+
+        fs.writeFile(
+          "joinSRT&RTTM.srt",
+          srtparsejs.toSrt(copyJoined),
+          (err) => {
+            if (err) console.log(err);
+            else console.log("Archivo joinSRT&RTTM.srt creado");
+          }
+        );
+
         const track = filterSrtBySpeaker(joined, "speaker", "speakers");
+
         const json = { totalSegmentos: joined.length, track: track };
         fs.writeFile("trackDataSRT.json", JSON.stringify(json), (err) => {
           if (err) console.log(err);
@@ -116,6 +115,7 @@ function filterSrtBySpeaker(json, speakerAttr, outputPath) {
   const track = [];
   //filter() para crear un arreglo con los objetos que contengan el atributo especificado.
   let speakers = json.filter((item) => item[speakerAttr]);
+
   // metodo map para obtener un arreglo con todos los valores del atributo buscado y luego se utiliza el metodo Set para crear un arreglo con valores unicos del atributo buscado.
   let uniqueSpeakers = [...new Set(speakers.map((item) => item[speakerAttr]))];
   //Se recorre el arreglo con valores unicos del atributo buscado.
@@ -161,4 +161,27 @@ function filterSrtBySpeaker(json, speakerAttr, outputPath) {
     );
   });
   return track;
+}
+
+function compareAssignSpeaker(json) {
+  json.forEach((item, index) => {
+    if (item.speaker === "undefined") {
+      //ver el objeto anterior y el siguiente y asignar si son iguales
+
+      if (index > 0 && index < json.length - 1) {
+        if (json[index - 1].speaker === json[index + 1].speaker) {
+          item.speaker = json[index - 1].speaker;
+        }
+        //si los dos no son iguales ver el objeto anterior y asignar el speaker
+        else if (json[index - 1].speaker !== json[index + 1].speaker) {
+          item.speaker = json[index - 1].speaker;
+        }
+      } else if (index === 0) {
+        item.speaker = json[index + 1].speaker;
+      } else {
+        item.speaker = json[index - 1].speaker;
+      }
+    }
+  });
+  return json;
 }
