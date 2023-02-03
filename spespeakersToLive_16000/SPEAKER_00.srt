@@ -1,0 +1,20 @@
+96
+00:10:02,529 --> 00:10:03,789
+SPEAKER_00: Mr. Xie...
+
+97
+00:10:04,799 --> 00:10:08,529
+SPEAKER_00: get a rickshaw to take my wife home. I'm...
+
+98
+00:10:08,870 --> 00:10:11,389
+SPEAKER_00: Of course.
+
+564
+01:04:23,239 --> 01:04:24,429
+SPEAKER_00: Enough?
+
+628
+01:12:01,109 --> 01:12:02,539
+SPEAKER_00: And after the ox?
+

@@ -1,0 +1,33 @@
+96
+00:10:02,529 --> 00:10:03,789
+SPEAKER_15: Mr. Xie...
+
+1199
+02:02:40,649 --> 02:02:42,199
+SPEAKER_15: It's all right.
+
+1200
+02:02:42,680 --> 02:02:44,949
+SPEAKER_15: Mommy's here. Don't be afraid.
+
+1204
+02:03:07,310 --> 02:03:11,069
+SPEAKER_15: Fengxia! You'll pull through.
+Mommy's here. Don't be afraid.
+
+1205
+02:03:11,840 --> 02:03:15,210
+SPEAKER_15: Please, Doctor, she's my only daughter.
+
+1206
+02:03:15,520 --> 02:03:18,250
+SPEAKER_15: The only child I have left.
+
+1207
+02:03:26,859 --> 02:03:30,420
+SPEAKER_15: Fengxia! Mommy's here. Don't be afraid.
+
+1208
+02:03:48,010 --> 02:03:53,039
+SPEAKER_15: Some years later...
+

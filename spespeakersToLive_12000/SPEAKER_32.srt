@@ -1,0 +1,188 @@
+1
+00:00:16,109 --> 00:00:21,100
+SPEAKER_32: ERA International (HK) Ltd. Presents
+
+2
+00:00:23,179 --> 00:00:27,739
+SPEAKER_32: In Association with Shanghai Film Studios
+
+3
+00:00:28,120 --> 00:00:31,679
+SPEAKER_32: Producer: Chiu Fusheng
+
+4
+00:00:32,119 --> 00:00:35,619
+SPEAKER_32: Executive Producers:
+Kow Fuhong and Christopher Tseng
+
+5
+00:00:36,130 --> 00:00:39,619
+SPEAKER_32: Associate Producer: Barbara Robinson
+
+6
+00:00:40,060 --> 00:00:44,469
+SPEAKER_32: Adaptation from Yu Hua's novel
+
+7
+00:00:44,770 --> 00:00:49,799
+SPEAKER_32: TO LIVE
+
+8
+00:00:51,880 --> 00:00:54,869
+SPEAKER_32: Script: Yu Hua and Lu Wei
+
+9
+00:00:55,009 --> 00:00:58,000
+SPEAKER_32: Screenplay: Lu Wei
+
+10
+00:00:58,149 --> 00:01:01,210
+SPEAKER_32: Director of Photography: Lu Yue
+
+11
+00:01:01,350 --> 00:01:04,290
+SPEAKER_32: Art Direction: Cao Jiuping
+
+12
+00:01:04,459 --> 00:01:07,359
+SPEAKER_32: Sound: Tao Jiping
+
+13
+00:01:07,530 --> 00:01:10,549
+SPEAKER_32: Music: Zhao Jiping
+
+14
+00:01:10,700 --> 00:01:13,689
+SPEAKER_32: Editor: Du Yuan
+
+15
+00:01:13,900 --> 00:01:18,670
+SPEAKER_32: Starring:
+Ge You - Gong Li
+
+16
+00:01:18,870 --> 00:01:23,359
+SPEAKER_32: Directed by Zhang Yimou
+
+17
+00:01:29,879 --> 00:01:34,879
+SPEAKER_32: The 1940s
+
+18
+00:01:54,069 --> 00:01:55,730
+SPEAKER_32: You've lost again.
+
+19
+00:01:55,870 --> 00:01:59,000
+SPEAKER_32: Not one lucky toss all night.
+
+36
+00:05:08,829 --> 00:05:11,100
+SPEAKER_32: Long'er, you're nearly there.
+
+37
+00:05:13,740 --> 00:05:15,800
+SPEAKER_32: One more night like this...
+
+38
+00:05:16,339 --> 00:05:19,209
+SPEAKER_32: you'll have him right where you want him.
+
+39
+00:05:19,480 --> 00:05:21,100
+SPEAKER_32: Sure there's no mistake?
+
+40
+00:05:21,180 --> 00:05:23,579
+SPEAKER_32: Look at the records.
+
+41
+00:05:27,490 --> 00:05:30,220
+SPEAKER_32: Master Fugui is going home. You take him.
+
+44
+00:06:05,689 --> 00:06:07,350
+SPEAKER_32: Welcome home, sir.
+
+45
+00:06:08,560 --> 00:06:09,620
+SPEAKER_32: Dad!
+
+46
+00:06:13,160 --> 00:06:15,660
+SPEAKER_32: Degenerate! Another night gambling!
+
+85
+00:08:59,129 --> 00:09:01,759
+SPEAKER_32: Your win, Master Fugui.
+
+90
+00:09:32,159 --> 00:09:33,250
+SPEAKER_32: Well?
+
+91
+00:09:44,379 --> 00:09:48,870
+SPEAKER_32: Mr. Long'er says
+if you're busy he'll take a rain check.
+
+99
+00:10:20,009 --> 00:10:21,909
+SPEAKER_32: Master Fugui, you lost.
+
+100
+00:10:30,220 --> 00:10:31,590
+SPEAKER_32: Let's roll!
+
+101
+00:10:34,759 --> 00:10:35,990
+SPEAKER_32: Master Fugui.
+
+116
+00:12:48,590 --> 00:12:49,649
+SPEAKER_32: Well?
+
+117
+00:12:50,629 --> 00:12:54,360
+SPEAKER_32: Master Fugui, you're out of the game.
+
+120
+00:13:01,440 --> 00:13:05,200
+SPEAKER_32: You bet your property.
+It's equal to what you owe Long'er.
+
+121
+00:13:05,710 --> 00:13:09,110
+SPEAKER_32: You don't have a roof tile to your name.
+
+122
+00:13:16,720 --> 00:13:18,090
+SPEAKER_32: What is it?
+
+123
+00:13:18,789 --> 00:13:21,620
+SPEAKER_32: Master Fugui must settle his account.
+
+268
+00:30:41,029 --> 00:30:43,619
+SPEAKER_32: I'd die happy if I could drive.
+
+672
+01:18:49,890 --> 01:18:51,609
+SPEAKER_32: It's me, Chunsheng.
+
+776
+01:27:37,810 --> 01:27:38,909
+SPEAKER_32: Good.
+
+940
+01:43:08,439 --> 01:43:09,569
+SPEAKER_32: Okay.
+
+941
+01:43:10,180 --> 01:43:13,109
+SPEAKER_32: Fengxia, after the child is born...
+
+965
+01:45:33,390 --> 01:45:34,819
+SPEAKER_32: Take this...
+

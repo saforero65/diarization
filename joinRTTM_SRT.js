@@ -1,6 +1,12 @@
 const fs = require("fs");
 const srtparsejs = require("srtparsejs");
 
+// const AUDIO_JSON = "mutefirev2.json";
+// const SUBTITLE_SRT = "mutefire.srt";
+
+const AUDIO_JSON = "tolive2.json";
+const SUBTITLE_SRT = "tolive.srt";
+
 function subripToSeconds(subripTime) {
   let time = subripTime.split(":");
   let hours = parseInt(time[0]);
@@ -71,51 +77,6 @@ function joinRTTM_SRT(srt, rttm) {
   return srt;
 }
 
-srtToJson("mutefire.srt")
-  .then((srtJson) => {
-    readJson("mutefirev2.json")
-      .then((dataJson) => {
-        let joined = joinRTTM_SRT(srtJson, dataJson);
-        const undefendedAssigned = compareAssignSpeaker(joined);
-
-        fs.writeFile(
-          "joinSRT&RTTM.json",
-          JSON.stringify(undefendedAssigned),
-          (err) => {
-            if (err) console.log(err);
-            else console.log("Archivo joinSRT&RTTM.json creado");
-          }
-        );
-
-        const copyJoined = JSON.parse(JSON.stringify(undefendedAssigned));
-        copyJoined.forEach((item) => {
-          item.startTime = secondsToSubrip(item.startTime);
-          item.endTime = secondsToSubrip(item.endTime);
-          item.text = item.speaker + ": " + item.text;
-          delete item.speaker;
-        });
-
-        fs.writeFile(
-          "joinSRT&RTTM.srt",
-          srtparsejs.toSrt(copyJoined),
-          (err) => {
-            if (err) console.log(err);
-            else console.log("Archivo joinSRT&RTTM.srt creado");
-          }
-        );
-
-        const track = filterSrtBySpeaker(joined, "speaker", "speakers");
-
-        const json = { totalSegmentos: joined.length, track: track };
-        fs.writeFile("trackDataSRT.json", JSON.stringify(json), (err) => {
-          if (err) console.log(err);
-          else console.log("Archivo trackDataSRT&RTTMv2.json creado");
-        });
-      })
-      .catch((err) => console.log(err));
-  })
-  .catch((err) => console.log(err));
-
 function filterSrtBySpeaker(json, speakerAttr, outputPath) {
   const track = [];
   //filter() para crear un arreglo con los objetos que contengan el atributo especificado.
@@ -140,6 +101,12 @@ function filterSrtBySpeaker(json, speakerAttr, outputPath) {
       totalSegmentos: speakerJson.length,
       segmentos: speakerJson,
     });
+    //crear carpeta
+
+    if (!fs.existsSync(outputPath)) {
+      fs.mkdirSync(outputPath);
+    }
+
     fs.writeFile(
       `${outputPath}/${speaker}.json`,
       JSON.stringify(copySpeakerJson),
@@ -181,12 +148,81 @@ function compareAssignSpeaker(json) {
         else if (json[index - 1].speaker !== json[index + 1].speaker) {
           item.speaker = json[index - 1].speaker;
         }
+        //si el objeto anterior no tiene speaker asignar el del siguiente
       } else if (index === 0) {
         item.speaker = json[index + 1].speaker;
+        //si el siguiente es undefined seguir hasta encontrar un speaker
+        if (item.speaker === "undefined") {
+          let i = 1;
+          while (item.speaker === "undefined") {
+            item.speaker = json[index + i].speaker;
+            i++;
+          }
+        }
       } else {
         item.speaker = json[index - 1].speaker;
       }
     }
   });
   return json;
+}
+
+//iterar sobre todos los json
+
+for (let i = 8000; i <= 23000; i += 1000) {
+  srtToJson(SUBTITLE_SRT)
+    .then((srtJson) => {
+      readJson("../pyannote_diarization/outputToLive/tolive_" + i + ".json")
+        .then((dataJson) => {
+          let joined = joinRTTM_SRT(srtJson, dataJson);
+          const undefendedAssigned = compareAssignSpeaker(joined);
+
+          fs.writeFile(
+            `joined_json/joinSRT&RTTM_${i}.json`,
+            JSON.stringify(undefendedAssigned),
+            (err) => {
+              if (err) console.log(err);
+              else
+                console.log(` Archivo joined/joinSRT&RTTM_${i}.json  CREADO`);
+            }
+          );
+
+          const copyJoined = JSON.parse(JSON.stringify(undefendedAssigned));
+          copyJoined.forEach((item) => {
+            item.startTime = secondsToSubrip(item.startTime);
+            item.endTime = secondsToSubrip(item.endTime);
+            item.text = item.speaker + ": " + item.text;
+            delete item.speaker;
+          });
+
+          fs.writeFile(
+            `joined_srt/joinSRT&RTTM_${i}.srt`,
+            srtparsejs.toSrt(copyJoined),
+            (err) => {
+              if (err) console.log(err);
+              else
+                console.log(`Archivo joined_srt/joinSRT&RTTM_${i}.srt CREADO`);
+            }
+          );
+
+          const track = filterSrtBySpeaker(
+            joined,
+            "speaker",
+            `spespeakersToLive_${i}`
+          );
+
+          const json = { totalSegmentos: joined.length, track: track };
+          fs.writeFile(
+            `trackData/trackDataSRT_${i}.json`,
+            JSON.stringify(json),
+            (err) => {
+              if (err) console.log(err);
+              else
+                console.log(`Archivo trackData/trackDataSRT_${i}.json CREADO`);
+            }
+          );
+        })
+        .catch((err) => console.log(err));
+    })
+    .catch((err) => console.log(err));
 }
