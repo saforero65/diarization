@@ -5,7 +5,7 @@ const srtparsejs = require("srtparsejs");
 // const SUBTITLE_SRT = "mutefire.srt";
 
 const AUDIO_JSON = "tolive2.json";
-const SUBTITLE_SRT = "tolive.srt";
+const SUBTITLE_SRT = "mutefire.srt";
 
 function subripToSeconds(subripTime) {
   let time = subripTime.split(":");
@@ -169,10 +169,10 @@ function compareAssignSpeaker(json) {
 
 //iterar sobre todos los json
 
-for (let i = 8000; i <= 23000; i += 1000) {
+for (let i = 8000; i <= 44000; i += 1000) {
   srtToJson(SUBTITLE_SRT)
     .then((srtJson) => {
-      readJson("../pyannote_diarization/outputToLive/tolive_" + i + ".json")
+      readJson("../pyannote_diarization/outputMutefire/mutefire_" + i + ".json")
         .then((dataJson) => {
           let joined = joinRTTM_SRT(srtJson, dataJson);
           const undefendedAssigned = compareAssignSpeaker(joined);
@@ -208,7 +208,7 @@ for (let i = 8000; i <= 23000; i += 1000) {
           const track = filterSrtBySpeaker(
             joined,
             "speaker",
-            `spespeakersToLive_${i}`
+            `speakersMuteFire_${i}`
           );
 
           const json = { totalSegmentos: joined.length, track: track };
